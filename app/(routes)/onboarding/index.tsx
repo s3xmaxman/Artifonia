@@ -1,14 +1,6 @@
-import { StyleSheet, Text, View } from "react-native";
 import React from "react";
+import OnBoardingScreen from "@/screens/onboarding.screen";
 
-const index = () => {
-  return (
-    <View>
-      <Text>index</Text>
-    </View>
-  );
-};
-
-export default index;
-
-const styles = StyleSheet.create({});
+export default function Onboarding() {
+  return <OnBoardingScreen />;
+}
