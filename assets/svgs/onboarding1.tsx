@@ -1,8 +1,8 @@
 import * as React from "react";
 import Svg, { Rect, Defs, Pattern, Use, Image } from "react-native-svg";
-import {scale} from "react-native-size-matters";
+import { scale } from "react-native-size-matters";
 
-const OnBoarding1 = (props:any) => (
+const OnBoarding1 = (props: any) => (
   <Svg
     width={scale(290)}
     height={scale(310)}
